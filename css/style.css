@@ -358,8 +358,57 @@ header::before {
 .help-you-problems__point {
   display: flex;
   align-items: center;
+  flex: 0 0 auto;
 }
 
 .help-you-picture__img {
   max-width: 430px;
+}
+
+/* adventages */
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 50px 30px;
+  border-radius: 24px;
+  background: #00B9B61A;
+  margin-bottom: 140px;
+}
+
+.advantages-picture {
+  margin-right: 130px;
+}
+
+.advantages-picture__img {
+  max-width: 180px;
+  transform: scale(1.43, 1.43);
+  transform-origin: left 270px;
+}
+
+.advantages-description__heading {
+  margin-bottom: 40px;
+}
+
+.advantages-description-item {
+  display: flex;
+}
+
+.advantages-description-item__point {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: #00B9B6;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.advantages-description-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.advantages-description-item-text__title {
+  margin-bottom: 5px;
 }
