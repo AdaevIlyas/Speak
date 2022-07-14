@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-html {
+body {
   background: rgba(249, 253, 255, 0.7);
 }
 
@@ -228,4 +228,138 @@ header::before {
 
 .application-download-links__link:first-child {
   margin-right: 20px;
+}
+
+/* psyhologists */
+
+.psychologists {
+  margin-bottom: 140px;
+}
+
+.psychologist {
+  padding: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.103);
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+
+.psychologists__heading {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 55px;
+}
+
+.psychologist-picture {}
+
+.psychologist-picture__img {
+  object-fit: cover;
+  max-width: 150px;
+  max-height: 150px;
+  margin-bottom: 15px;
+}
+
+.psychologist__name {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 120%;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.psychologist-estimation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.psychologist-estimation__link {
+  padding: 5px;
+}
+
+.psychologists-themes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.psychologists-themes__problems {
+  padding: 10px 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #333333;
+  background: #FFFFFF;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.072);
+  cursor: pointer;
+}
+
+.psychologists-themes__problems_active {
+  color: #00B9B6;
+}
+
+.psychologists-themes__problems:nth-child(-n+6) {
+  margin-bottom: 15px;
+}
+
+.psychologists-themes__staff {
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+/* problems */
+
+.help-you {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 210px;
+}
+
+.help-you::after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  background: #5AB8CC;
+  filter: blur(200px);
+  border-radius: 50%;
+  z-index: -1;
+  right: 0px;
+}
+
+.help-you-description__heading {
+  margin-bottom: 40px;
+}
+
+.help-you-problems__img {
+  padding: 5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #00B9B61A;
+  margin-right: 10px;
+}
+
+.help-you-problems__item {
+  display: flex;
+  align-items: center;
+}
+
+.help-you-problems__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.help-you-problems__point {
+  display: flex;
+  align-items: center;
+}
+
+.help-you-picture__img {
+  max-width: 430px;
 }
