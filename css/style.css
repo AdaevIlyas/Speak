@@ -76,6 +76,14 @@ ul {
   background: #FFFFFF;
 }
 
+.signature {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #00B9B6;
+  font-style: normal;
+}
+
 /* header */
 
 header::before {
@@ -163,12 +171,7 @@ header::before {
   margin-bottom: 50px;
 }
 
-.session-text__description {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 140%;
-  color: #00B9B6;
-}
+.session-text__signature {}
 
 .session-picture__img {
   max-width: 686px;
@@ -411,4 +414,235 @@ header::before {
 
 .advantages-description-item-text__title {
   margin-bottom: 5px;
+}
+
+/* specialists */
+
+.specialists {
+  margin-bottom: 140px;
+}
+
+.specialists__heading {
+  margin-bottom: 5px;
+}
+
+.specialists__signature {
+  margin-bottom: 62px;
+}
+
+.specialists-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specialists-description-item {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.specialists-description-item:not(:last-child) {
+  margin-bottom: 71px;
+}
+
+#specialists-item__one::before {
+  content: '1';
+  position: absolute;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 100%;
+  color: #00B9B6;
+  opacity: 0.2;
+  margin-top: -22px;
+  margin-left: -55px;
+}
+
+#specialists-item__two::before {
+  content: '2';
+  position: absolute;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 100%;
+  color: #00B9B6;
+  opacity: 0.2;
+  margin-top: -22px;
+  margin-left: -55px;
+}
+
+#specialists-item__three::before {
+  content: '3';
+  position: absolute;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 100%;
+  color: #00B9B6;
+  opacity: 0.2;
+  margin-top: -22px;
+  margin-left: -55px;
+}
+
+
+.specialist-description-picture__img {
+  max-width: 408px;
+}
+
+/* about-the-service */
+
+.about-the-service {
+  margin-bottom: 140px;
+}
+
+.about-the-service__heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-the-service__video-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.about-the-service-clip {
+  display: flex;
+  width: 750px;
+  margin-right: 50px;
+}
+
+.about-the-service-clip__video {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.about-the-app-box:first-child {
+  margin-top: 50px;
+}
+
+.about-the-app-box {
+  margin-bottom: 50px;
+}
+
+.about-the-app-box__heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #FFA800;
+}
+
+.about-the-service-selection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-the-service-choice {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.158);
+  border-radius: 24px;
+  padding: 20px 30px;
+}
+
+.about-the-service-choice:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-the-service-choice-picture {
+  display: flex;
+  align-items: center;
+}
+
+.about-the-service-choice-picture__img {
+  max-width: 80px;
+  margin-right: 10px;
+}
+
+.about-the-service-choice-text__title {
+  margin-bottom: 5px;
+}
+
+/* how-it-works */
+
+.how-it-works {
+  margin-bottom: 140px;
+}
+
+.how-it-works::before {
+  content: '';
+  position: absolute;
+  width: 170px;
+  height: 700px;
+  background: #5AB8CC;
+  filter: blur(250px);
+  border-radius: 50%;
+  z-index: -1;
+  right: 0px;
+}
+
+.how-it-works__heading {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.how-it-works-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-it-works-steps,
+.how-it-works-picture {
+  width: 32%;
+}
+
+.how-it-works-steps {
+  margin-top: 60px;
+}
+
+.how-it-works-picture {
+  text-align: center;
+}
+
+.how-it-works-picture__img {
+  max-width: 300px;
+}
+
+.how-it-works-step {
+  display: flex;
+  align-items: flex-start;
+}
+
+.how-it-works-step:first-child {
+  margin-bottom: 80px;
+}
+
+.how-it-works-step__number {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #00B9B6;
+}
+
+.how-it-works-step__point {
+  display: flex;
+  flex: 0 0 auto;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #00B9B61A;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-it-works-step-text__title {
+  margin-bottom: 10px;
+}
+
+.how-it-works-btn-box {
+  text-align: center;
+}
+
+.how-it-works-btn-box__btn {
+  border: 1px solid #00B9B6;
 }
