@@ -646,3 +646,90 @@ header::before {
 .how-it-works-btn-box__btn {
   border: 1px solid #00B9B6;
 }
+
+/* how-it-works-tabs */
+/* TABS */
+
+.how-it-works-tabs {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.how-it-works-tabs::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 700px;
+  background: #5AB8CC;
+  filter: blur(150px);
+  border-radius: 50%;
+  z-index: -1;
+  right: 0px;
+}
+
+.how-it-works-tabs__heading {
+  margin-bottom: 50px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  color: #00B9B6;
+  background: rgba(0, 185, 182, 0.1);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.step-active {
+  color: #FFFFFF;
+  background: #00B9B6;
+}
+
+.step:not(:last-child) {
+  margin-right: 10px;
+}
+
+.step:not(:first-child) {
+  margin-left: 10px;
+}
+
+.line {
+  width: 20px;
+  height: 2px;
+  background: #00B9B640;
+}
+
+.how-it-works-tabs-picture__img {
+  max-width: 170px;
+}
+
+.tabs-info {
+  text-align: center;
+  display: none;
+  margin-bottom: 40px;
+}
+
+.how-it-works-tabs__title {
+  margin-bottom: 10px;
+}
+
+.tabs-info-active {
+  display: block;
+}
