@@ -9,11 +9,14 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/adaptive.css">
   <script src="js/script.js"></script>
-  <!-- слайдер -->
+  <!-- slider-->
   <link rel="stylesheet" href="css/simple-adaptive-slider.min.css">
   <script src="js/simple-adaptive-slider.min.js"></script>
   <!-- jQ -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <!-- Revealator -->
+  <link rel="stylesheet" href="css/fm.revealator.jquery.min.css">
+  <script src="js/fm.revealator.jquery.min.js"></script>
   <title>Speak</title>
 </head>
 
@@ -460,27 +463,39 @@
             </h2>
             <div class="advantages-description__list">
               <div class="advantages-description-item">
-                <div class="advantages-description-item__point"></div>
-                <div class="advantages-description-item-text">
-                  <h4 class="title advantages-description-item-text__title">Занимайтесь где и как удобно</h4>
-                  <p class="description advantages-description-item-text__description">Дома или в поездке и в любом
-                    часовом поясе</p>
+                <div class="revealator-zoomout revealator-delay4 revealator-duration6 revealator-once">
+                  <div class="advantages-description-item__point"></div>
+                </div>
+                <div class="revealator-slideleft revealator-delay4 revealator-duration6 revealator-once">
+                  <div class="advantages-description-item-text">
+                    <h4 class="title advantages-description-item-text__title">Занимайтесь где и как удобно</h4>
+                    <p class="description advantages-description-item-text__description">Дома или в поездке и в любом
+                      часовом поясе</p>
+                  </div>
                 </div>
               </div>
               <div class="advantages-description-item">
-                <div class="advantages-description-item__point"></div>
-                <div class="advantages-description-item-text">
-                  <h4 class="title advantages-description-item-text__title">Меньше забот- больше мотивации</h4>
-                  <p class="description advantages-description-item-text__description">Не тратьте время на дорогу и
-                    управляйте занятиями в два клика</p>
+                <div class="revealator-zoomout revealator-delay8 revealator-duration6 revealator-once">
+                  <div class="advantages-description-item__point"></div>
+                </div>
+                <div class="revealator-slideleft  revealator-delay8 revealator-duration6 revealator-once">
+                  <div class="advantages-description-item-text">
+                    <h4 class="title advantages-description-item-text__title">Меньше забот- больше мотивации</h4>
+                    <p class="description advantages-description-item-text__description">Не тратьте время на дорогу и
+                      управляйте занятиями в два клика</p>
+                  </div>
                 </div>
               </div>
               <div class="advantages-description-item">
-                <div class="advantages-description-item__point"></div>
-                <div class="advantages-description-item-text">
-                  <h4 class="title advantages-description-item-text__title">Доверяйте себе</h4>
-                  <p class="description advantages-description-item-text__description">Выбирайте среди проверенных
-                    психологов, которые специаллизируются на ваших запросах</p>
+                <div class="revealator-zoomout revealator-delay11 revealator-duration6 revealator-once">
+                  <div class="advantages-description-item__point"></div>
+                </div>
+                <div class="revealator-slideleft revealator-delay11 revealator-duration6 revealator-once">
+                  <div class="advantages-description-item-text">
+                    <h4 class="title advantages-description-item-text__title">Доверяйте себе</h4>
+                    <p class="description advantages-description-item-text__description">Выбирайте среди проверенных
+                      психологов, которые специаллизируются на ваших запросах</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -662,6 +677,294 @@
           </div>
           <div class="how-it-works-btn-box">
             <a href="" class="btn btn_white how-it-works-btn-box__btn">Начать общение</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="services">
+          <h2 class="heading services__heading">Услуги</h2>
+          <div class="services-main">
+            <div class="revealator-slideright revealator-duration8 revealator-once">
+              <div class="service-day">
+                <h4 class="title service-day__title">24 часа чата</h4>
+                <p class="service-day__payment"><b class="service-day__money">4200₽</b>/ 24 часа</p>
+                <div class="service-day-description">
+                  <div class="service-day-item">
+                    <div class="service-day-item__point">
+                      <img src="img/main/services/icon_check.svg" alt="" class="service-day-item__img">
+                    </div>
+                    <p class="description service-day-item__description">24 часа доступа к чату с психологом</p>
+                  </div>
+                  <div class="service-day-item">
+                    <div class="service-day-item__point">
+                      <img src="img/main/services/icon_check.svg" alt="" class="service-day-item__img">
+                    </div>
+                    <p class="description service-day-item__description">Аудио сообщения</p>
+                  </div>
+                </div>
+                <a href="" class="btn btn_white service-day__btn">Перейти</a>
+              </div>
+            </div>
+            <div class="revealator-slideleft revealator-delay4 revealator-duration8 revealator-once">
+              <div class="service-minutes">
+                <div class="service-minutes-popular">
+                  <p class="service-minutes-popular__description">Популярное</p>
+                  <img src="img/main/services/icon_star.png" alt="" class="service-minutes-popular__img">
+                </div>
+                <div class="service-minutes__box">
+                  <h4 class="title service-minutes__title">Аудио/Видео сессии</h4>
+                  <p class="service-minutes__payment"><b class="service-minutes__money">49₽</b>/ 1 минута</p>
+                  <div class="service-minutes-description">
+                    <div class="service-minutes-item">
+                      <div class="service-minutes-item__point">
+                        <img src="img/main/services/icon_check_white.svg" alt="" class="service-minutes-item__img">
+                      </div>
+                      <p class="description service-minutes-item__description">Безлимитный доступа к чату с
+                        психологом до начала сессии
+                      </p>
+                    </div>
+                    <div class="service-minutes-item">
+                      <div class="service-minutes-item__point">
+                        <img src="img/main/services/icon_check_white.svg" alt="" class="service-minutes-item__img">
+                      </div>
+                      <p class="description service-minutes-item__description">Аудио/Видео звонки</p>
+                    </div>
+                    <div class="service-minutes-item">
+                      <div class="service-minutes-item__point">
+                        <img src="img/main/services/icon_check_white.svg" alt="" class="service-minutes-item__img">
+                      </div>
+                      <p class="description service-minutes-item__description">Нет лимитов по времени разговора</p>
+                    </div>
+                  </div>
+                  <a href="" class="btn btn_white services-minutes__btn">Перейти</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="download-app">
+          <div class="download-app__box">
+            <div class="application-download">
+              <h2 class="heading application-download__heading">Скачайте бесплатно приложение SPEAK</h2>
+              <div class="application-download__description">
+                <div class="application-download-picture">
+                  <img src="img/main/application/application-logo.png" alt="" class="application-download-picture__img">
+                </div>
+                <div class="application-download-text">
+                  <h4 class="application-download-text__heading">
+                    SPEAK
+                  </h4>
+                  <p class="application-download-text__description">онлайн сессии с психологом</p>
+                  <p class="application-download-text__description">доступно для iOS и Android</p>
+                </div>
+              </div>
+              <div class="application-download-links">
+                <a href="" class="application-download-links__link"><img src="img/main/application/appstore.png" alt=""
+                    img="application-download-links__img"></a>
+                <a href="" class="application-download-links__link"><img src="img/main/application/playstore.png" alt=""
+                    img="application-download-links__img"></a>
+              </div>
+            </div>
+          </div>
+          <div class="download-app-picture">
+            <img src="img/main/download-app/phone.png" alt="" class="download-app-picture__img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="reviews">
+          <h2 class="heading reviews__heading">Отзывы</h2>
+          <div id="slider" class="slider">
+            <ol class="slider__indicators">
+              <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
+              <li class="slider__indicator" data-slide-to="1"></li>
+              <li class="slider__indicator" data-slide-to="2"></li>
+            </ol>
+            <div class="slider__items">
+              <div class="slider__item slider__item_1 slider__item_active">
+                <div class="slider__item_inner">
+                  <span class="slider__item_img">
+                    <img class="slider__item_photo" src="img/main/reviews/sophia.png" alt="">
+                    <img src="img/main/reviews/stars.png" alt="" class="slider__estimation">
+                  </span>
+                  <span class="slider__item_testimonial">
+                    <span class="slider__item_name">София Джонс</span>
+                    <span class="slider__item_post">Учитель</span>
+                    <span class="slider__item_text">
+                      Всего через 2 месяца Speak уже оказал такое влияние на мою жизнь. Это помогло мне разработать
+                      управляемые решения для преодоления чувства стресса, беспокойства и подавленности. Спикер помог
+                      мне пройти через трудные этапы горя после потери моей мамы, проявив сострадание и поддержку. И с
+                      ней легко открыться, заставляя меня чувствовать себя услышанным и понятым.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="slider__item slider__item_2">
+                <div class="slider__item_inner">
+                  <span class="slider__item_img">
+                    <img class="slider__item_photo" src="img/main/reviews/jay.png" alt="">
+                    <img src="img/main/reviews/stars.png" alt="" class="slider__estimation">
+                  </span>
+                  <span class="slider__item_testimonial">
+                    <span class="slider__item_name">Джей Кей Браун</span>
+                    <span class="slider__item_post">Художник</span>
+                    <span class="slider__item_text">
+                      Всего через 2 месяца Speak уже оказал такое влияние на мою жизнь. Это помогло мне разработать
+                      управляемые решения для преодоления чувства стресса, беспокойства и подавленности. Спикер помог
+                      мне пройти через трудные этапы горя после потери моей мамы, проявив сострадание и поддержку. И с
+                      ней легко открыться, заставляя меня чувствовать себя услышанным и понятым.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="slider__item slider__item_3">
+                <div class="slider__item_inner">
+                  <span class="slider__item_img">
+                    <img class="slider__item_photo" src="img/main/reviews/anna.png" alt="">
+                    <img src="img/main/reviews/stars.png" alt="" class="slider__estimation">
+                  </span>
+                  <span class="slider__item_testimonial">
+                    <span class="slider__item_name">Анна Блэк</span>
+                    <span class="slider__item_post">Студент</span>
+                    <span class="slider__item_text">
+                      Всего через 2 месяца Speak уже оказал такое влияние на мою жизнь. Это помогло мне разработать
+                      управляемые решения для преодоления чувства стресса, беспокойства и подавленности. Спикер помог
+                      мне пройти через трудные этапы горя после потери моей мамы, проявив сострадание и поддержку. И с
+                      ней легко открыться, заставляя меня чувствовать себя услышанным и понятым.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <a class="slider__control slider__control_prev" href="#" role="button"></a>
+            <a class="slider__control slider__control_next" href="#" role="button"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="questions">
+          <h2 class="heading questions__heading">Детский психолог онлайн</h2>
+          <div id="accordion">
+            <h3 class="title accordion__title">Чем поможет детский психолог онлайн?</h3>
+            <div class="accordion__text" id="accordion-1" style="height: 0px;">
+              <br>
+              <p class="description accordion__description">
+                Каждый родитель хочет, чтобы его ребенок рос сильной уравновешенной личностью. Мы понимаем, что именно в
+                детстве формируются зачатки характера. Как справиться с возникающими проблемами, как выстроить отношения
+                с ребенком, чтобы он доверял вам? На эти и другие вопросы поможет ответить детский психолог онлайн.
+              </p>
+              <br>
+            </div>
+            <h3 class="title accordion__title">Преимущества онлайн-консультации детского психолога</h3>
+            <div class="accordion__text" id="accordion-2" style="height: 0px;">
+              <br>
+              <p class="description accordion__description">
+                Главный плюс сеанса в таком формате – экономия времени. Вам не придется тратить время на дорогу и долгие
+                сборы. Все, что нужно – компьютер или смартфон, микрофон и блокнот с ручкой, чтобы записывать важную
+                информацию. Если вам или ребенку тяжело общаться с незнакомым человеком лично, онлайн-связь в этом
+                случае упростит дело.
+              </p>
+              <br>
+            </div>
+            <h3 class="title accordion__title">Когда нужна помощь детского психолога онлайн?</h3>
+            <div class="accordion__text" id="accordion-3" style="height: 0px;">
+              <br>
+              <p class="description accordion__description">
+                Онлайн-консультация детского психолога может быть полезна, если у вас есть вопросы по таким темам, как:
+              </p>
+              <br>
+              <ul class="accordion__list">
+                <li class="accordion__item">
+                  <p class="description accordion__description">Плохая успеваемость;</p>
+                </li>
+                <li class="accordion__item">
+                  <p class="description accordion__description">Стеснительность;</p>
+                </li>
+                <li class="accordion__item">
+                  <p class="description accordion__description">Цифровая зависимость;</p>
+                </li>
+                <li class="accordion__item">
+                  <p class="description accordion__description">Агрессия;</p>
+                </li>
+                <li class="accordion__item">
+                  <p class="description accordion__description">Потеря близкого в семье;</p>
+                </li>
+                <li class="accordion__item">
+                  <p class="description accordion__description">Возрастной кризис;</p>
+                </li>
+                <li class="accordion__item">
+                  <p class="description accordion__description">Подготовка к детскому саду или школе;</p>
+                </li>
+                <li class="accordion__item">
+                  <p class="description accordion__description">Профориентация.</p>
+                </li>
+              </ul>
+              <br>
+              <p class="description accordion__description">
+                Это лишь часть тем, которые можно затронуть. Помните, что, если возникает ситуация, в которой вы
+                самостоятельно не можете разобраться, сейчас консультация детского психолога онлайн поможет найти
+                ответы.
+              </p>
+              <br>
+            </div>
+            <h3 class="title accordion__title">Как проходит онлайн-консультация детского психолога?</h3>
+            <div class="accordion__text" id="accordion-4" style="height: 0px;">
+              <br>
+              <p class="description accordion__description">Задать вопрос детскому психологу онлайн может как сам
+                ребенок, так и родитель.</p>
+              <br>
+              <p class="description accordion__description">
+                На первом сеансе обычно присутствует родитель или опекун, а также сам «виновник торжества». Следующие
+                сеансы могут быть и без взрослого, если ребенок сам в состоянии связаться через интернет.
+                <br><br>
+                Бывает и так, что сначала ребенку присутствовать необязательно. В этом случае работа происходит с
+                родителем, а если есть необходимость, позже присоединяется ребенок.
+                <br><br>
+                Психолог по детским вопросам онлайн может попросить ребенка нарисовать что-то, далее по этим рисункам он
+                проведет диагностику. Родитель тоже является звеном связи с психикой ребенка. Через него психолог может
+                сделать вывод о том, какая проблема сейчас назрела.
+                <br><br>
+                Если специалист попросит вас пройти обследование или сдать анализы для более ясной картины, не
+                пугайтесь, это нормально. Таким образом, вы оба сможете исключить какие-либо диагнозы
+              </p>
+              <br>
+            </div>
+            <h3 class="title accordion__title">О чем поговорить с детским психологом?</h3>
+            <div class="accordion__text" id="accordion-5" style="height: 0px;">
+              <br>
+              <p class="description accordion__description">
+                Родители малышей часто обращаются с вопросами об адаптации в детском саду. Есть тревожные мамы, которые
+                сомневаются, стоит ли отдавать малыша в сад или же пока слишком рано. Очень многих волнует, что
+                воспитатель будет срываться на ребенка. Это логично, ведь в силу того, что в СМИ регулярно появляются
+                жуткие новости о чудовищных ЧП в детсадах, беспокойство обосновано.
+                <br><br>
+                Отдельный вопрос подготовки к саду. В интернете полно информации в таком ключе: «ребенок должен
+                научиться самостоятельно есть, ходить в туалет и засыпать сам перед тем, как идти в сад». Особо
+                мнительные беспрекословно верят, другие понимают: ребенок ничего никому не должен. Его невозможно
+                научить чему-то, пока он сам не захочет делать это. «Дрессировке» малыши не поддаются. Но пугаться не
+                стоит, в любом случае, воспитатели будут помогать малышам в этих вопросах. Главное – настроиться на
+                позитив и верить в хорошее.
+                <br><br>
+                Дети постарше сталкиваются с проблемами переходного возраста, неуверенностью в себе, безответной любовью
+                и другими. Если вы понимаете, что вам с чадом необходима онлайн-консультация, вы можете выбрать
+                специалиста на нашем сайте.
+              </p>
+              <br>
+            </div>
           </div>
         </div>
       </div>

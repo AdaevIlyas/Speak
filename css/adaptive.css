@@ -1,0 +1,40 @@
+/* slider Отзывов */
+@media (min-width: 576px) {
+  .slider__item {
+    height: 250px;
+  }
+
+  .slider__item_inner {
+    flex-direction: row;
+  }
+
+  .slider__item_testimonial {
+    margin-left: 15px;
+  }
+
+  .slider__item_img {
+    flex: 0 0 100px;
+    max-width: 100px;
+  }
+
+  .slider__item_testimonial {
+    text-align: left;
+  }
+}
+
+.slider__item_name {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+.slider__item_post {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+.slider__item_text {
+  color: #333333;
+}
