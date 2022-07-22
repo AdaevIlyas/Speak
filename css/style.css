@@ -59,21 +59,69 @@ ul {
 }
 
 .btn {
+  position: relative;
   font-weight: 700;
   font-size: 16px;
   line-height: 120%;
   padding: 12px 30px;
   border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:active {
+  transform: scale(0.8);
+}
+
+.btn_birch::before {
+  top: -1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  content: '';
+  width: 200%;
+  height: 105%;
+  background: linear-gradient(0deg, rgba(255, 255, 252, 0.77) 10%, rgba(255, 255, 253, 0) 50%, rgba(255, 255, 255, 0.77) 90%);
+  transform: skewX(30deg) translateX(-120%);
+  transition: transform 0.4s ease-in-out;
+  opacity: 0.65;
+}
+
+.btn_birch:hover::before {
+  transform: skew(30deg) translateX(-10%)
 }
 
 .btn_birch {
   color: #FFFFFF;
   background: linear-gradient(225deg, #00B9B6 0%, #00CDAC 100%);
+  overflow: hidden;
+  transition: transform 0.35s ease-in-out;
 }
 
 .btn_white {
   color: #00B9B6;
   background: #FFFFFF;
+  overflow: hidden;
+  transition: transform 0.35s ease-in-out;
+}
+
+.btn_white::before {
+  top: -1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  content: '';
+  width: 200%;
+  height: 105%;
+  background: linear-gradient(0deg, rgba(0, 185, 182, 0.39539565826330536) 0%, rgba(255, 255, 254, 0) 40%, rgba(255, 255, 255, 0) 60%, rgba(0, 185, 182, 0.40379901960784315) 100%);
+  transform: skewX(30deg) translateX(-120%);
+  transition: transform 0.4s ease-in-out;
+  opacity: 0.7;
+}
+
+.btn_white:hover::before {
+  transform: skew(30deg) translateX(-10%)
 }
 
 .signature {
@@ -119,6 +167,38 @@ header::before {
   line-height: 120%;
   color: #333333;
 }
+
+/* линия от центра */
+
+.header-menu__link {
+  display: inline-block;
+  line-height: 1;
+  position: relative;
+}
+
+.header-menu__link::after {
+  display: block;
+  content: "";
+  background-color: #00B9B6;
+  margin-top: 5px;
+  height: 2px;
+  width: 0%;
+  left: 50%;
+  position: absolute;
+  -webkit-transition: width .25s ease-in-out;
+  -moz--transition: width .25s ease-in-out;
+  transition: width .25s ease-in-out;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.header-menu__link:hover::after,
+.header-menu__link:focus::after {
+  width: 100%;
+}
+
+/*  */
 
 .header-menu__item:not(:last-child) {
   margin-right: 40px;
@@ -229,6 +309,14 @@ header::before {
 
 .application-download-links__link:first-child {
   margin-right: 20px;
+}
+
+.application-download-links__link {
+  transition: transform 0.3s ease-in-out;
+}
+
+.application-download-links__link:active {
+  transform: scale(0.8);
 }
 
 /* psyhologists */
@@ -797,6 +885,10 @@ header::before {
   margin-right: 10px;
 }
 
+.service-day__btn {
+  border: 1px solid #00B9B6
+}
+
 .service-minutes {
   display: flex;
   flex-direction: column;
@@ -1184,6 +1276,8 @@ header::before {
   line-height: 32px;
   padding-top: 16px;
   padding-bottom: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
   color: #333333;
   cursor: pointer;
   transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -1223,4 +1317,88 @@ header::before {
 
 .accordion__list {
   padding-left: 19px;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+}
+
+.footer-nav {
+  max-width: 500px;
+  margin-right: 130px;
+}
+
+.footer-nav-picture__img {
+  max-width: 180px;
+  margin-bottom: 40px;
+}
+
+.footer-nav-links__box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-nav-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav-links__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #333333;
+}
+
+.footer-nav-links:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer-nav-links__link:first-child {
+  margin-bottom: 20px;
+}
+
+.footer-contacts-links {
+  margin-bottom: 30px;
+}
+
+.footer-contacts-links__link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer-contacts-links__img {
+  max-width: 40px;
+}
+
+.footer-contacts-mail {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-contacts-mail__icon {
+  max-width: 20px;
+  margin-right: 12px;
+}
+
+.footer-contacts-map {
+  display: flex;
+  align-items: center;
+}
+
+.footer-contacts-map__icon {
+  max-width: 14px;
+  margin-left: 3px;
+  margin-right: 15px;
+}
+
+.footer-contacts-mail__link,
+.footer-contacts-map__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #333333;
 }
