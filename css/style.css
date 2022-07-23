@@ -1323,6 +1323,8 @@ header::before {
 
 .footer {
   display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .footer-nav {

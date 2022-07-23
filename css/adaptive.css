@@ -38,3 +38,37 @@
 .slider__item_text {
   color: #333333;
 }
+
+@media (max-width:1120px) {
+  .container {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .session-picture__img {
+    max-width: 400px;
+  }
+
+  .service-day {
+    margin-right: 20px;
+  }
+
+  .about-the-service__video-box {
+    justify-content: flex-start;
+  }
+
+  .about-the-service-clip {
+    max-width: 620px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .how-it-works-picture__img {
+    max-width: 270px;
+  }
+
+  .download-app-picture__img {
+    max-width: 340px;
+  }
+}
