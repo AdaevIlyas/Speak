@@ -39,12 +39,17 @@
   color: #333333;
 }
 
-@media (max-width:1120px) {
+/*  */
+
+@media (max-width: 1160px) {
   .container {
     max-width: none;
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+@media (max-width:1120px) {
 
   .session-picture__img {
     max-width: 400px;
@@ -64,11 +69,95 @@
 }
 
 @media (max-width: 1024px) {
-  .how-it-works-picture__img {
-    max-width: 270px;
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .session,
+  .application,
+  .psychologists,
+  .advantages,
+  .specialists,
+  .about-the-service,
+  .how-it-works,
+  .services,
+  .download-app,
+  .reviews {
+    margin-bottom: 100px;
+  }
+
+  .help-you {
+    margin-bottom: 130px;
+  }
+
+  .header-box {
+    margin-bottom: 50px;
+  }
+
+  .session-text__heading {
+    margin-bottom: 30px;
+  }
+
+  .psychologists-themes__problems:not(:last-child) {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  .psychologist-picture__img {
+    max-width: 130px;
+  }
+
+  .psychologist__name {
+    font-size: 13px;
+  }
+
+  .estimation__img {
+    max-width: 80px;
+  }
+
+  .psychologist-estimation__view {
+    max-width: 18px;
+  }
+
+  .help-you-picture__img {
+    max-width: 350px;
+  }
+
+  .advantages {
+    padding: 30px
+  }
+
+  .advantages-picture__img {
+    max-width: 150px;
+    transform-origin: left 290px;
+  }
+
+  .specialist-description-picture__img {
+    max-width: 320px;
+  }
+
+  .application-download__description {
+    margin-bottom: 50px;
+  }
+
+  .application-download__heading {
+    margin-bottom: 30px;
+  }
+
+  .application-download-text__heading {
+    font-size: 20px;
+  }
+
+  .application-download-picture {
+    padding: 7px;
   }
 
   .download-app-picture__img {
     max-width: 340px;
+  }
+
+  .questions {
+    margin-bottom: 100px;
   }
 }
