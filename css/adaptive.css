@@ -161,3 +161,357 @@
     margin-bottom: 100px;
   }
 }
+
+@media (max-width:960px) {
+  .session-text__heading {
+    font-size: 42px;
+  }
+
+  .slider__indicators {
+    bottom: 0px;
+  }
+
+  .slider__item_text {
+    margin-bottom: 10px;
+  }
+
+  .about-the-service-clip {
+    max-width: 540px;
+  }
+
+  .about-the-app-box:first-child {
+    margin-top: 30px;
+  }
+
+  .about-the-app-box {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width:938px) {
+  #btn-8 {
+    margin-bottom: 0px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width:920px) {
+
+  .psychologist:nth-child(5) {
+    display: none;
+  }
+
+  .help-you-picture__img {
+    max-width: 300px;
+  }
+
+  .specialist-description-picture__img {
+    max-width: 270px;
+  }
+
+  .how-it-works {
+    display: none;
+  }
+
+  .how-it-works-tabs {
+    display: flex;
+  }
+
+  .download-app-picture__img {
+    max-width: 320px;
+  }
+
+  .footer-nav-links:last-child {
+    margin-top: 20px;
+  }
+
+  .footer-nav {
+    max-width: 307px;
+  }
+}
+
+@media (max-width:900px) {
+  .header-logo__logo {
+    max-width: 130px;
+  }
+
+  .session-text__heading {
+    font-size: 37px;
+  }
+
+  .signature {
+    font-size: 14px;
+  }
+
+  .application {
+    flex-direction: column;
+  }
+
+  .application-clip {
+    align-self: center;
+    height: 290px;
+    width: 70%;
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+
+  .about-the-service__video-box {
+    flex-direction: column-reverse;
+  }
+
+  .about-the-app {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-the-app-box {
+    margin-top: 0px !important;
+  }
+
+  .about-the-service-clip {
+    width: 100%;
+    max-width: none;
+    height: 350px;
+  }
+
+  .about-the-service-choice {
+    align-items: flex-start
+  }
+
+  .about-the-service-choice-picture__img {
+    max-width: 70px;
+  }
+
+  .service-day__money,
+  .service-minutes__money {
+    font-size: 48px;
+  }
+}
+
+@media (max-width:840px) {
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .btn,
+  .psychologists-themes__problems {
+    padding: 8px 25px;
+    border-radius: 10px
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .header-account__btn {
+    display: none;
+  }
+
+  .header-start__btn {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 12px;
+  }
+
+  .language {
+    margin-right: 0px;
+  }
+
+  .lang-img__flag {
+    margin-right: 15px;
+  }
+
+  .lang-text {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .session-picture__img {
+    max-width: 290px;
+  }
+
+  .about-the-service-choice-picture__img {
+    max-width: 50px;
+  }
+
+  .about-the-service-choice-text__title {
+    font-size: 18px;
+  }
+
+  .about-the-service-choice-text__description {
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .advantages-picture {
+    margin-right: 90px;
+  }
+
+  .advantages-picture__img {
+    max-width: 140px;
+    transform-origin: left 275px;
+  }
+
+  .specialist-description-picture__img {
+    max-width: 240px;
+  }
+
+  #specialists-item__one::before,
+  #specialists-item__two::before,
+  #specialists-item__three::before {
+    font-size: 120px;
+    margin-top: -15px;
+    margin-left: -40px;
+  }
+
+  .service-day__money,
+  .service-minutes__money {
+    font-size: 44px;
+  }
+
+  .service-day__payment,
+  .service-minutes__payment {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width:812px) {
+  .slider__item_name {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  .slider__item_text {
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+
+  .slider__item_photo {
+    max-width: 80px;
+  }
+
+  .slider__estimation {
+    max-width: 70px;
+  }
+}
+
+@media (max-width:780px) {
+
+  .service-day__money,
+  .service-minutes__money {
+    font-size: 38px;
+  }
+}
+
+@media (max-width:768px) {
+
+  .btn {
+    font-size: 16px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .session-text__heading {
+    font-size: 32px;
+  }
+
+  .lang-img__flag {
+    width: 25px;
+    height: 25px;
+  }
+
+  .header-start__btn {
+    font-size: 12px;
+  }
+
+  .burger-menu_link {
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+
+  .application-download-picture {
+    margin-right: 15px;
+  }
+
+  .application-download-text__heading {
+    font-size: 18px;
+  }
+
+  .application-download-text__description {
+    line-height: 130%;
+  }
+
+  .application-download-picture__img {
+    max-width: 55px;
+  }
+
+  .psychologists-themes__problems {
+    font-size: 16px;
+  }
+
+  .tabs-info {
+    margin-bottom: 25px;
+  }
+
+  .service-minutes-popular {
+    padding: 10px;
+  }
+
+  .service-minutes-popular__description {
+    font-size: 13px;
+  }
+
+  .service-minutes-popular__img {
+    max-width: 13px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .footer-nav {
+    max-width: none;
+  }
+
+  .footer-nav-links:last-child {
+    margin-top: 0px;
+  }
+
+  .footer-nav-links__box {
+    margin-bottom: 40px;
+  }
+
+  .slider__item {
+    height: 280px;
+  }
+}
+
+@media (max-width:762px) {
+  .psychologist:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width:710px) {
+  .help-you-picture__img {
+    max-width: 240px;
+  }
+
+  .download-app-picture__img {
+    max-width: 230px;
+  }
+}
