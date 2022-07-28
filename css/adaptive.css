@@ -272,6 +272,7 @@
     width: 100%;
     max-width: none;
     height: 350px;
+    margin-right: 0px;
   }
 
   .about-the-service-choice {
@@ -506,6 +507,33 @@
   }
 }
 
+@media (max-width: 720px) {
+  .services-main {
+    flex-direction: column-reverse;
+  }
+
+  .service-minutes {
+    margin-bottom: 30px;
+  }
+
+  .service-day {
+    margin-right: 0px;
+  }
+
+  .revealator-fade,
+  .revealator-slideup,
+  .revealator-slideleft,
+  .revealator-slideright,
+  .revealator-slidedown,
+  .revealator-zoomin,
+  .revealator-zoomout,
+  .revealator-rotateleft,
+  .revealator-rotateright {
+    transition-delay: 0ms !important;
+    transition-duration: 600ms !important;
+  }
+}
+
 @media (max-width:710px) {
   .help-you-picture__img {
     max-width: 240px;
@@ -513,5 +541,563 @@
 
   .download-app-picture__img {
     max-width: 230px;
+  }
+
+  #btn-7 {
+    margin-bottom: 0px;
+  }
+
+  .advantages-picture__img {
+    max-width: 130px;
+    transform-origin: left 255px;
+  }
+
+  .specialist-description-picture__img {
+    max-width: 210px;
+  }
+
+  .about-the-app-box__heading {
+    font-size: 44px;
+  }
+
+  .about-the-service-choice {
+    padding: 10px 15px;
+  }
+
+  .how-it-works-tabs__heading {
+    margin-bottom: 30px;
+  }
+
+  .steps {
+    margin-bottom: 30px;
+  }
+
+  .questions {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width:675px) {
+  .session-picture__img {
+    max-width: 250px;
+  }
+
+  .advantages-picture__img {
+    transform-origin: left 270px;
+  }
+
+  #accordion>h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:660px) {
+  .slider__item {
+    height: 300px;
+  }
+
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width:655px) {
+
+  .session,
+  .application,
+  .psychologists,
+  .advantages,
+  .specialists,
+  .about-the-service,
+  .how-it-works,
+  .services,
+  .download-app,
+  .reviews {
+    margin-bottom: 80px;
+  }
+
+  .help-you-picture__img {
+    max-width: 220px;
+  }
+
+  .advantages {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advantages-picture {
+    margin-right: 0px;
+  }
+
+  .advantages-picture__img {
+    transform-origin: center 270px;
+    max-width: 110px;
+  }
+
+  .advantages-description__heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .specialist-description-picture__img {
+    max-width: 195px;
+  }
+
+  .about-the-service-choice:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .about-the-service-choice {
+    border-radius: 20px;
+  }
+}
+
+@media (max-width:640px) {
+
+  .session {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .session-text {
+    margin-bottom: 30px;
+  }
+
+  .session-text__btn {
+    font-size: 18px;
+  }
+
+  .session-picture__img {
+    max-width: 70%;
+  }
+
+  .application-clip {
+    width: 85%;
+    height: 300px;
+  }
+
+  .slider__item_name {
+    font-size: 16px;
+  }
+
+  .slider__item_text {
+    font-size: 14px;
+  }
+
+  .footer-nav-links__box {
+    justify-content: flex-start;
+  }
+
+  .footer-nav-links:first-child {
+    margin-right: 30px;
+  }
+
+  .footer-nav-links:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width:625px) {
+  .about-the-service-choice-text__title {
+    font-size: 16px;
+  }
+
+  .about-the-service-choice-text__description {
+    font-size: 14px;
+  }
+
+  .download-app {
+    flex-direction: column-reverse;
+  }
+
+  .download-app-picture {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .download-app-picture__img {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 615px) {
+
+  #btn-7,
+  #btn-8 {
+    margin-bottom: 15px;
+  }
+
+  .advantages-picture__img {
+    transform: scale(1.33, 1.33);
+  }
+}
+
+@media (max-width:588px) {
+  #btn-8 {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 585px) {
+
+  .help-you {
+    flex-direction: column;
+  }
+
+  .help-you-description {
+    margin-bottom: 20px;
+  }
+
+  .help-you-picture {
+    text-align: center;
+  }
+
+  .help-you-picture__img {
+    max-width: 70%;
+  }
+
+  .specialists-description {
+    flex-direction: column;
+  }
+
+  .specialists-description__list {
+    margin-bottom: 20px;
+  }
+
+  #specialists-item__one::before,
+  #specialists-item__two::before,
+  #specialists-item__three::before {
+    font-size: 105px;
+    margin-top: -15px;
+    margin-left: -33px;
+  }
+
+  .specialist-description-picture {
+    text-align: center;
+  }
+
+  .specialist-description-picture__img {
+    max-width: 70%;
+  }
+
+  .psychologist:nth-child(3) {
+    display: none;
+  }
+
+  .about-the-app-box {
+    text-align: center;
+  }
+
+  .about-the-app-box__heading {
+    font-size: 34px;
+  }
+
+  .about-the-app-box__description {
+    font-size: 15px;
+  }
+
+  .questions {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width:580px) {
+
+  .psychologists-themes {
+    margin-bottom: 25px;
+  }
+
+  .about-the-service-selection {
+    flex-direction: column;
+  }
+
+  .about-the-service-choice:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .about-the-service-choice {
+    padding: 20px 30px;
+  }
+
+  .about-the-service-choice-text__title {
+    font-size: 18px;
+  }
+
+  .about-the-service-choice-text__description {
+    font-size: 16px;
+  }
+
+  .about-the-service-choice-picture__img {
+    max-width: 80px;
+  }
+}
+
+@media (max-width:575px) {
+  .slider__item {
+    height: 360px;
+  }
+}
+
+@media (max-width:556px) {
+  .application-clip {
+    width: 100%;
+  }
+
+  #btn-8 {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width:515px) {
+  .download-app-picture__img {
+    max-width: 50%;
+  }
+}
+
+@media (max-width:480px) {
+
+  .heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .signature {
+    text-align: center;
+  }
+
+  .about-the-app-box__heading {
+    font-size: 26px;
+  }
+
+  .about-the-app-box__description {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:500px) {
+
+  header::before {
+    width: 100px;
+  }
+
+  .about-the-service-clip {
+    height: 280px;
+  }
+}
+
+@media (max-width: 465px) {
+
+  .application-clip {
+    height: 250px;
+  }
+
+  .slider__item {
+    height: 380px;
+  }
+}
+
+@media (max-width:445px) {
+
+  .burger-menu_link {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+
+  .header-logo__logo {
+    max-width: 95px;
+  }
+
+  .slider__item {
+    height: 400px;
+  }
+}
+
+@media (max-width: 418px) {
+  #btn-8 {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 410px) {
+  .burger-menu {
+    width: 35px;
+  }
+
+  .burger-menu_button {
+    top: 23px
+  }
+
+  .advantages {
+    padding: 20px
+  }
+
+  .header-start__btn {
+    margin-right: 10px;
+  }
+
+  .lang-img__flag {
+    margin-right: 10px;
+  }
+
+  .slider__item {
+    height: 410px;
+  }
+
+  #accordion>h3 {
+    font-size: 16px;
+  }
+
+  .footer-nav-picture__img {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width:400px) {
+  .psychologist:nth-child(2) {
+    display: none;
+  }
+
+  .psychologist-picture__img {
+    max-width: 150px;
+  }
+
+  .psychologist__name {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 385px) {
+  .header-start__btn {
+    padding: 8px 12px;
+  }
+
+  .session-text__heading {
+    font-size: 28px;
+  }
+
+  .slider__item {
+    height: 430px;
+  }
+
+  .about-the-app-box__heading {
+    font-size: 20px;
+  }
+
+  .about-the-app-box__description {
+    font-size: 10px;
+  }
+
+  .about-the-service-clip {
+    height: 195px;
+  }
+
+  .about-the-service-choice-picture__img {
+    max-width: 60px;
+  }
+
+  #accordion>h3 {
+    padding: 8px 5px
+  }
+
+  .application-clip {
+    height: 200px;
+  }
+
+  .footer-nav-links__link,
+  .footer-contacts-mail__link,
+  .footer-contacts-map__link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:375px) {
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .title,
+  .application-download-text__heading {
+    font-size: 16px;
+  }
+
+  .btn,
+  .description,
+  .application-download-text__description {
+    font-size: 14px;
+  }
+
+  .session-text__btn {
+    font-size: 18px;
+  }
+
+  .about-the-app-box__description {
+    font-size: 10px;
+  }
+
+  .lang-img__flag {
+    display: none;
+  }
+
+  .burger-menu {
+    width: 40px;
+  }
+
+  .psychologists-themes__problems {
+    font-size: 14px;
+  }
+
+  #btn-8 {
+    margin-bottom: 15px;
+  }
+
+  #specialists-item__one::before,
+  #specialists-item__two::before,
+  #specialists-item__three::before {
+    font-size: 80px;
+    margin-top: -18px;
+    margin-left: -33px;
+  }
+
+  .about-the-service-choice {
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width:370px) {
+
+  .session-text__heading {
+    font-size: 27px;
+  }
+
+  .slider__item {
+    height: 450px;
+  }
+
+  .download-app-picture__img {
+    max-width: 60%;
+  }
+
+  .application-download-links__img {
+    max-width: 110px;
+  }
+
+  .slider__control::before {
+    width: 15px;
+    height: 15px;
+  }
+
+  .footer-contacts-links__img {
+    max-width: 35px;
+  }
+}
+
+@media (max-width: 367px) {
+  #btn-8 {
+    margin-bottom: 0px;
   }
 }

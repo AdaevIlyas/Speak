@@ -397,6 +397,7 @@ header::before {
 
 .psychologists-themes__problems_active {
   color: #00B9B6;
+  box-shadow: 0px 4px 25px rgba(0, 185, 182, 0.25);
 }
 
 .psychologists-themes__problems:nth-child(-n+6) {
@@ -1423,6 +1424,10 @@ header::before {
   width: 50px;
 }
 
+#burger__language {
+  display: none;
+}
+
 .burger-menu_button {
   position: fixed;
   top: 25px;
@@ -1466,16 +1471,19 @@ header::before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 50px;
 }
 
 .burger-menu_lines::before {
   content: '';
   top: -6px;
+  border-radius: 50px;
 }
 
 .burger-menu_lines::after {
   content: '';
   top: 6px;
+  border-radius: 50px;
 }
 
 
