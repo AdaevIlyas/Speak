@@ -32,6 +32,12 @@ ul {
   list-style: none;
 }
 
+header,
+main,
+footer {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1120px;
   margin: 0 auto;
@@ -1430,7 +1436,7 @@ header::before {
 
 .burger-menu_button {
   position: fixed;
-  top: 25px;
+  top: 23px;
   z-index: 30;
   width: 40px;
   height: 40px;
